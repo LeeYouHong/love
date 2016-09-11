@@ -94,8 +94,8 @@ function startHeartAnimation() {
 
 startAnimation = function() {
 	var together = new Date();
-	together.setFullYear(2012, 09, 30);  
-	together.setHours(19);
+	together.setFullYear(2004, 09, 1);  
+	together.setHours(8);
 	together.setMinutes(0);
 	together.setSeconds(0);
 	together.setMilliseconds(0);
@@ -149,7 +149,7 @@ function adjustWordsPosition() {
 }
 
 function adjustCodePosition() {
-	$('#express').css("margin-top", ($("#garden").height() - $("#express").height()) / 2);
+	$('#express').css("margin-top", ($("#garden").height() - $("#express").height()) / 2-50);
 }
 
 function showLoveU() {
